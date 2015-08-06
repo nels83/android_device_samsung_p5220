@@ -26,9 +26,9 @@ TARGET_KERNEL_SOURCE := kernel/samsung/santos10
 TARGET_KERNEL_CONFIG := cyanogenmod_p5220_defconfig
 
 # RIL
-#BOARD_PROVIDES_LIBRIL := true
-#BOARD_MODEM_TYPE := xmm6262
-#BOARD_RIL_CLASS := ../../../device/samsung/p5200/ril
+BOARD_PROVIDES_LIBRIL := true
+BOARD_MODEM_TYPE := xmm7260
+BOARD_RIL_CLASS := ../../../device/samsung/p5200/ril
 
 # assert
 TARGET_OTA_ASSERT_DEVICE := p5220,GT-P5220,santos10lte,santos10ltexx
