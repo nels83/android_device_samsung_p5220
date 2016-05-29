@@ -2,6 +2,7 @@
 # system.prop for santos10lte
 #
 rild.libpath=/system/lib/libsec-ril.so
-rild.libargs=-d /dev/ttys0
-ro.ril.hsxpa=1
-ro.ril.gprsclass=10
+rild.libargs=-d /dev/ttyS0
+telephony.lteOnGsmDevice=1
+ro.telephony.default_network=9
+ro.ril.qanelements=6
